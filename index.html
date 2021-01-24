@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>BOUTIQUE</title>
+	<meta name="description" content="#">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="icon" href="img/b.png">
+	
+	<link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+	<header class="header" 	>
+		<div class="header__top">
+			<div class="container-lg">
+				<div class="row">
+				<div class="col header__switchers">
+					<div class="dropdown header_dropdown_lang">
+						<a href="#" class="dropdown__button">eng<i class="fas fa-angle-down"></i></a>
+						<div class="dropdown__content">
+							<a href="#" class="dropdown__link">eng</a>
+							<a href="#" class="dropdown__link">ru</a>
+							<a href="#" class="dropdown__link">pl</a>
+						</div>
+					</div>
+					<div class="dropdown header_dropdown_currency line-left">
+						<a href="#" class="dropdown__button">usd<i class="fas fa-angle-down"></i></a>
+						<div class="dropdown__content">
+							<a href="#" class="dropdown__link">usd</a>
+							<a href="#" class="dropdown__link">rub</a>
+							<a href="#" class="dropdown__link">pln</a>
+						</div>
+					</div>
+				</div>
+				<div class="col header__log">
+					<a href="#" id='.admin-form-box' class='admin-btn'>Admin</a>
+					<a href="#" id='.registration-form-box' class="reg-btn line-left">register</a>
+					<a href="#" id='.login-form-box' class="login-btn line-left">log in</a>
+				</div>
+				</div>	
+			</div>
+		</div>
+
+		<div class="container-lg header__bottom">
+			<div class="row">
+				<div class="col-12 col-lg-2 header__logo-box">
+					<div class="logo header__logo"><a href="#">boutique</a></div>
+				</div>
+				<div class="col col-lg-8">
+					<nav class="nav header__nav">
+						<a href="#">Home</a>
+						<div class="dropdown">
+							<a name='#menDrop' href="#"  class="dropdown__button">Men</a>
+						</div>
+						<div class="dropdown">
+							<a name='#womanDrop' href="#" class="dropdown__button">Women</a>
+						</div>
+						<div class="dropdown">
+							<a href="#" class="dropdown__button">Accesories</a>
+							<div class="dropdown__content header_dropdown_accesories">
+								<a href="#" class="dropdown__link">Shoes</a>
+								<a href="#" class="dropdown__link">Hat</a>
+								<a href="#" class="dropdown__link">Glasses</a>
+								<a href="#" class="dropdown__link">Jewelry</a>
+								<a href="#" class="dropdown__link">Watch</a>
+								<a href="#" class="dropdown__link">View all</a>
+							</div>
+						</div>
+						<a href="#">Blog</a>
+						<a href="#">About us</a>
+					</nav>
+				</div>
+				<div class="d-none d-sm-block col-2 header__iteractive">
+					<div class="dropdown">
+						<a href="#" class="dropdown__button search__button"><i class="fas fa-search"></i></a>
+						<div class="dropdown__content search">
+							<form>
+								<input type="text" placeholder="Search">
+								<button type="button"><i class="fas fa-search"></i></button>
+							</form>
+						</div>
+					</div>
+					<div class="dropdown line-left">
+						<a href="#" class="dropdown__button cart__button"><i class="fas fa-shopping-cart"></i>
+				 			<span class="cart-sum">$125.00</span></a>
+						<div class="dropdown__content header_dropdown_cart">
+							<div class="border">
+							<div class="item">
+								<div class="item__img">
+									<img src="img/placeholder.png" alt="placeholder">
+								</div>
+								<div class="item__content">
+									<a href="#" class="subtitle">Tantastic baked bronzer</a>
+									<p class="item__price">$ 69.90</p>
+									<span class="subtitle item__count">qty: 01</span>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item__img">
+									<img src="img/placeholder.png" alt="placeholder">
+								</div>
+								<div class="item__content">
+									<a href="#" class="subtitle">Tantastic baked bronzer</a>
+									<p class="item__price">$ 69.90</p>
+									<span class="subtitle item__count">qty: 01</span>
+								</div>
+							</div>
+							<p class="total-price"><span>Total:</span> $ 139.80</p>	
+							</div>
+							<a href='#' class="check">Check out</a>
+						</div>
+					</div>
+				</div>
+				<div id='menDrop' class="dropdown__content header_dropdown_large">
+					<div class="dropdown__nav">
+						<h3 class="submenu-title">Clothing</h3>
+						<ul>
+							<li><a href="#" class="dropdown__link">Tops</a></li>
+							<li><a href="#" class="dropdown__link">T-shirts</a></li>
+							<li><a href="#" class="dropdown__link">Shorts</a></li>
+							<li><a href="#" class="dropdown__link">Coats &amp; Jackets</a></li>
+							<li><a href="#" class="dropdown__link">Jeans</a></li>
+						</ul>
+					</div>
+					<div class="dropdown__nav">
+						<h3 class="submenu-title">Accesories</h3>
+						<ul>
+							<li><a href="#" class="dropdown__link">Watchers</a></li>
+							<li><a href="#" class="dropdown__link">T-Hats</a></li>
+							<li><a href="#" class="dropdown__link">Shoes</a></li>
+							<li><a href="#" class="dropdown__link">Jewelry</a></li>
+						</ul>
+					</div>
+					<div class="dropdown__nav">
+						<h3 class="submenu-title">Brand</h3>
+						<ul>
+							<li><a href="#" class="dropdown__link">Nike</a></li>
+							<li><a href="#" class="dropdown__link">Adidas</a></li>
+							<li><a href="#" class="dropdown__link">Gucci</a></li>
+							<li><a href="#" class="dropdown__link">Chanel</a></li>
+							<li><a href="#" class="dropdown__link">Lacoste</a></li>
+						</ul>
+					</div>
+					<div class="dropdown__img">
+						<img src="img/header__nav/he_lookbook_04_2016_9.jpg" alt="men">
+					</div>
+					<div class="dropdown__img">
+						<img src="img/header__nav/she_lookbook_05_2016_1.jpg" alt="women">
+					</div>
+				</div>
+				<div id='womanDrop' class="dropdown__content header_dropdown_large">
+					<div class="dropdown__nav">
+						<h3 class="submenu-title">Clothing</h3>
+						<ul>
+							<li><a href="#" class="dropdown__link">Tops</a></li>
+							<li><a href="#" class="dropdown__link">T-shirts</a></li>
+							<li><a href="#" class="dropdown__link">Shorts</a></li>
+							<li><a href="#" class="dropdown__link">Coats &amp; Jackets</a></li>
+							<li><a href="#" class="dropdown__link">Jeans</a></li>
+						</ul>
+					</div>
+					<div class="dropdown__nav">
+						<h3 class="submenu-title">Accesories</h3>
+						<ul>
+							<li><a href="#" class="dropdown__link">Watchers</a></li>
+							<li><a href="#" class="dropdown__link">T-Hats</a></li>
+							<li><a href="#" class="dropdown__link">Shoes</a></li>
+							<li><a href="#" class="dropdown__link">Jewelry</a></li>
+						</ul>
+					</div>
+					<div class="dropdown__nav">
+						<h3 class="submenu-title">Brand</h3>
+						<ul>
+							<li><a href="#" class="dropdown__link">Nike</a></li>
+							<li><a href="#" class="dropdown__link">Adidas</a></li>
+							<li><a href="#" class="dropdown__link">Gucci</a></li>
+							<li><a href="#" class="dropdown__link">Chanel</a></li>
+							<li><a href="#" class="dropdown__link">Lacoste</a></li>
+						</ul>
+					</div>
+					<div class="dropdown__img img1">
+						<img src="img/header__nav/she_lookbook_05_2016_1.jpg" alt="women">
+					</div>
+					<div class="dropdown__img img2">
+						<img src="img/header__nav/he_lookbook_04_2016_9.jpg" alt="men">
+					</div>
+				</div>
+			</div>		
+		</div>
+	</header>
+	
+	<div class="login-form-box">
+		<div  class="login-form">
+			<form id='login-form' action='' onsubmit="return false">
+				<div class="logo">boutique</div>
+				<input type="email" class="login" name="mail" placeholder="Email"
+				 onblur="this.placeholder='Email'" autocomplete="username"
+				  onfocus="this.placeholder = ''" required><br>
+				<input type="password" class="password" name="password" placeholder="Password"
+				 onblur="this.placeholder='Password'" autocomplete="current-password" onfocus="this.placeholder = ''" required><br>
+				<input type="checkbox" id="remember" class="remember">
+				<label for="remember">Remember me</label>	<br>
+				<input type="submit" class="button" value='Log In'>
+				<div class="wrong-id login-error">Wrong login or password!</div>
+			</form>
+			<div class="logined">
+				<h2>Welcom <span class="username"></span>!</h2>
+			</div>
+		</div>
+	</div>	
+
+	<div class="registration-form-box">
+		<div  class="login-form">
+			<form id='reg-form' class="form ad" action=''onsubmit="return false">
+				<div class="logo">boutique</div>
+				<input type="email" class="login" name="login" placeholder="Email"
+				 onblur="this.placeholder='Email'" autocomplete="username"
+				  onfocus="this.placeholder = ''" required><br>
+				<input type="password" class="password" name="password" placeholder="Password"
+				 onblur="this.placeholder='Password'" autocomplete="current-password" onfocus="this.placeholder = ''" required><br>
+				<input name='username' type="text" class="name" placeholder="Name"
+				 onblur="this.placeholder='Name'" autocomplete="username"
+				  onfocus="this.placeholder = ''" required><br>
+				<input name='submit' type="submit" class="button bunt" value='Register'>
+				<div class="wrong-id login-error">Wrong login or password!</div>
+			</form>
+			<div class="logined">
+				<h2>Register Finished!</h2>
+			</div>
+		</div>
+	</div>	
+
+	<div class="admin-form-box">
+		<div action='' class="login-form">
+			<div class="logo">boutique</div>
+
+			<button class="admin__btn" value='#create' id='create_btn'>Create new item</button>
+			<button class="admin__btn" value='#change' id='change_btn'>Change item</button>
+			<button class="admin__btn" value='#delete' id='delete_btn'>Delete item</button>
+
+			<form action='#' id='create' class="form" onsubmit="return false">
+				<div class="group">
+					<input name='name' type="text" class='name' placeholder="Name" required>
+					<input name='count' type="number" class='count' placeholder="Count" min='0'>
+				</div>
+				<div class='checkbox'>
+					<input type='hidden' value='false' name='onSale'>
+					<input name='onSale' id='.newPrice_create' type="checkbox" class="onSale" value='true'>
+					<label for="onSale">on Sale?</label>
+				</div>
+				<div class="group">
+					<input name='newPrice' type="number" class='newPrice_create' placeholder="New Price in USD" min='0'>
+					<input name='prevPrice' type="number" class='prevPrice' placeholder="Regular Price in USD" min='0' required>
+				</div>
+				<div class='checkbox'>
+					<input name='onNew' type='hidden' value='false'>
+					<input name='onNew' type="checkbox" class="onNew" value='true'>
+					<label for="onNew">Add 'New' label?</label>
+				</div>
+				<div class='checkbox'>
+					<input name='onStars' type='hidden' value='false'>
+					<input name='onStars' id='.starsCount_create' type="checkbox" class="onStars" value='true'>
+					<label for="onStars">Add Stars?</label>
+				</div>
+				<div class="group">
+					<input name='starsCount' type="number" class='starsCount_create' placeholder="Count of stars" max='5' min='1'>
+					<input name='img' type="text" class='img' placeholder="img url" required>
+				</div>
+				<div class="group">
+					<a class="refresh-btn_create">Refresh</a>
+					<input name='submit' type="submit" class="button" value='Create'>
+				</div>
+			</form>
+
+			<div id='change' class="form">
+				<input name='id' type="number" id='id-input' placeholder="Enter item-ID" required>
+				<div>
+					<a href="#" id='find-new' class="find-new">Find New</a>
+					<button class="find-btn">Find</button>
+				</div>
+				<div class="wrong-id">Wrong ID!</div>
+				<form action='#' id='change-form' onsubmit="return false" class="change-form" novalidate>
+					<div class="group">
+						<label>
+							<p>Item name:</p>
+							<input name='name' type="text" id='name' placeholder="Name" required>
+						</label>
+						<label>
+							<p>Item count:</p>
+							<input name='count' type="number" class='count' placeholder="Count" min='0'>
+						</label>
+					</div>
+					<div class='checkbox checkbox--padding'>
+						<input type='hidden' value='false' name='onSale'>
+						<input name='onSale' id='.newPrice' type="checkbox" class="onSale" value='true'>
+						<label for="onSale">on Sale?</label>
+					</div>
+					<div class="group">
+						<label class="newPrice">
+							<p>New price:</p>
+							<input name='newPrice' type="number" class='newPrice' placeholder="New Price in USD" min='1'>
+						</label>
+						<label>
+							<p>Previouse price:</p>
+							<input name='prevPrice' type="number" class='prevPrice' placeholder="Regular Price in USD" min='0' required>
+						</label>
+					</div>
+					<div class='checkbox checkbox--padding'>
+						<input type='hidden' value='false' name='onNew'>
+						<input name='onNew' type="checkbox" class="onNew" value='true'>
+						<label for="onNew">Add 'New' label?</label>
+					</div>
+					<div class='checkbox checkbox--padding'>
+						<input type='hidden' value='false' name='onStars'>
+						<input name='onStars' id='.starsCount' type="checkbox" class="onStars" value='true'>
+						<label for="onStars">Add Stars?</label>
+					</div>
+					<div class="group">
+						<label class="starsCount">
+							<p>Count of stars:</p>
+							<input name='starsCount' type="number" class='starsCount' placeholder="Count of stars" max='5' min='1'>
+						</label>
+						<label>
+							<p>Img url:</p>
+							<input name='img' type="text" class='img' placeholder="img url" required>
+						</label>
+					</div>
+					<div class='group'>
+						<a class="refresh-btn_change">Refresh</a>
+						<input name='submit' type="submit" class="button" value='Save changes'>
+					</div>
+				</div>
+			</form>
+			<div id='delete' class="form">
+				<input name='id' type="number" id='id-input_delete' placeholder="Enter item-ID" required>
+				<div>
+					<a href="#" id='find-new_delete' class="find-new">Find New</a>
+					<button class="find-btn_delete">Find</button>
+				</div>
+				<button class="delete-btn">Delete</button>
+				<div class="wrong-id">Wrong ID!</div>
+			</div>
+		</div>
+
+		<div class="prev">
+			<h3><span class="status">Preview </span><br><a href="#arrivals" id="check" class='check'>Check</a></h3>
+			<div class="itm"></div>
+		</div>
+
+	</div>
+
+	<main>
+		
+		<section class="promo">
+			<div class="container-lg">
+				<div class="row">
+					<div class="col-6">
+				    <div class="promo__content">
+				    	<div class="promo__price">
+				    		<span class="number">199</span>
+				    		<span class="usd">usd</span> 
+				    		<span class="subtitle">The latest Product from Boutique</span>
+				    	</div>
+				    	<h1 class="featured">Featured</h1>
+				    	<div class="right">
+				    		<h2 class="jump">Jumpsuits</h2>
+				    	</div>
+				    	<div class="right">
+				    		<a href="#" class='butn promo_butn'>Shop now</a>
+				    	</div>
+				    </div>
+					</div>
+					<div class="col-6"></div>
+				</div>
+			</div>	
+		</section>
+		<section class="info">
+			<div class="container-lg">
+				<div class="row info__content">
+					<div class="col line-none"><a href="#"><i class="fas fa-rocket"></i>free shipping</a></div>
+					<div class="col"><a href="#"><i class="fas fa-undo-alt"></i>money back 100%</a></div>
+					<div class="col"><a href="#"><i class="far fa-life-ring"></i>support 24/7</a></div>
+					<div class="col"><a href="#"><i class="fas fa-percent"></i>member discount</a></div>
+				</div>
+			</div>
+		</section>
+		
+
+
+
+		<section id='arrivals' class="arrivals">
+			<div class="container-lg">
+				<div class="arrivals__inner">
+					<div class="arrivals__top">
+						<h2 class="title decor">new arrivals</h2>
+						<p class="subtitle top__subtitle">Lorem ipsum, dolor, sit amet ipsum, dolor, sit amet</p>
+					</div>
+					<div class="arriwals__content">
+						<div id='arrivals__carousel' class="arrivals__carousel">		
+						</div>
+					</div>	
+				</div>
+			</div>	
+		</section>
+		<section class="sale">
+			<div class="container-lg">
+				<div class="row">
+					<div class="col">
+						<div class="circle">
+							<div class="circle__inner">
+								<h2 class="title">Women</h2>
+								<p class="text decor">Lorem Ipsum is simply 
+									dummy text of the printing and typesetting industry.</p>
+								<a class="circle__link" href="#">Shop now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col promotion__circle-dnone">
+						<div class="circle-promotion">
+							<div class="circle-promotion__inner">
+								<h1><span class="inner__big" >Big</span><br> 
+									<span class="inner__sal">Sale</span>
+								 <span class="inner__percent">30%</span></h1>
+								<a href='#' class="inner__link">view more</a>
+							</div>
+						</div>	
+					</div>
+					<div class="col">
+						<div class="circle circle--men">
+							<div class="circle__inner">
+								<h2 class="title">Woman</h2>
+								<p class="text decor">Lorem Ipsum is simply 
+									dummy text of the printing and typesetting industry.</p>
+								<a class="circle__link" href="#">Shop now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<section class="all">
+			<div class="container">
+				<div class="all__top">
+					<h2 class="title decor">
+						<a href="#">Bestseller</a>
+						<a href="#">Featutred</a>
+						<a href="#">All</a>
+					</h2>
+					<p class="text">Lorem Ipsum is 
+					simply dummy text of the printing and typesetting industry.</p>
+				</div>
+				<div class="all__content">
+					<div id="all-carousel" class="all_corousel">
+					</div>
+				</div>
+			</div>
+		</section>	
+		<section class="partners-reviews">
+			<div class="partners">
+				<div class="container">
+					<div class="partners__content">
+						<div class="partners__carousel" id='partners__carousel'>
+							<div class="partners__item">
+								<img src="img/partners/GOURMET.png" alt="GOURMET">
+							</div>
+							<div class="partners__item">
+								<img src="img/partners/LYLE-&-SCOTT.png" alt="SCOTT">
+							</div>
+							<div class="partners__item">
+								<img src="img/partners/MISHKA.png" alt="MISHKA">
+							</div>
+
+							<div class="partners__item">
+								<img src="img/partners/MITCHELL-&-NESS.png" alt="Ness">
+							</div>
+							<div class="partners__item">
+								<img src="img/partners/STUSSY.png" alt="Stussy">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews">
+				<div class="container">
+					<div class="reviews__carousel" id='reviews-carousel'>
+						<div class="reviews__item">
+							<div class="reviews__img">
+								<div class="img-circle">
+									<img src="img/416x416.jpg" alt="w">
+								</div>
+							</div>
+							<div class="reviews__text">
+								<p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+									Fugiat perspiciatis quidem sapiente. Saepe vero quo molestiae ad ipsum 
+									adipisci vel dignissimos? Illo veniam dignissimos, quia. Distinctio qui 
+									quidem iste labore?
+								</p>
+							</div>		
+						</div>
+						<div class="reviews__item">
+							<div class="reviews__img">
+								<div class="img-circle">
+									<img src="img/10543-image-sp-unknown-women.jpg" alt="w">
+								</div>
+							</div>
+							<div class="reviews__text">
+								<p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+									Fugiat perspiciatis quidem sapiente. Saepe vero quo molestiae ad ipsum 
+									adipisci vel dignissimos? Illo veniam dignissimos, quia. Distinctio qui 
+									quidem iste labore?
+								</p>
+							</div>		
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="news">
+			<div class="container">
+				<div class="news__top">
+					<h2 class="title decor">News &amp; blogs</h2>
+					<nav class="naw news__nav">
+						<a href="#" class="naw__link">All</a>
+						<a href="#" class="naw__link">News</a>
+						<a href="#" class="naw__link">Featured</a>
+						<a href="#" class="naw__link">Event</a>
+					</nav>
+				</div>
+				<div class="news__content">
+					<div class="news__carousel" id='news-carousel'>
+						<div class="news__item">
+							<div class="news__item-inner">
+								<h3>Lookbook fashion 2016</h3>
+								<span class="text"><i class="fas fa-edit"></i> 
+									Pixel - Creative
+								</span>
+								<span class="text"><i class="far fa-calendar-alt"></i>
+									May, 16, 2016
+								</span>
+								<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+								<a class="news__link" href="#">View More</a>
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__item-inner">
+								<h3>Lookbook fashion 2016</h3>
+								<span class="text"><i class="fas fa-edit"></i> 
+									Pixel - Creative
+								</span>
+								<span class="text"><i class="far fa-calendar-alt"></i>
+									May, 16, 2016
+								</span>
+								<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+								<a class="news__link" href="#">View More</a>
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__item-inner">
+								<h3>Lookbook fashion 2016</h3>
+								<span class="text"><i class="fas fa-edit"></i> 
+									Pixel - Creative
+								</span>
+								<span class="text"><i class="far fa-calendar-alt"></i>
+									May, 16, 2016
+								</span>
+								<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+								<a class="news__link" href="#">View More</a>
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__item-inner">
+								<h3>Lookbook fashion 2016</h3>
+								<span class="text"><i class="fas fa-edit"></i> 
+									Pixel - Creative
+								</span>
+								<span class="text"><i class="far fa-calendar-alt"></i>
+									May, 16, 2016
+								</span>
+								<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+								<a class="news__link" href="#">View More</a>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</section>		
+	</main>
+	
+	<footer class="footer">
+		<div class="footer__top">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3 class="submenu-title">About us</h3>
+					<p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<ul class="footer__contact">
+						<li ><a class='footer__contact-link' href="https://goo.gl/maps/MCPYbdYmxqtSxRnLA">
+							<i class="fas fa-map-marker-alt"></i>
+							907 Rainbow, Linh Dam - Hoang Mai - Ha Noi
+						</a></li>
+						<li ><a class='footer__contact-link' href="tel:(+84) 988 992 088">
+							<i class="fas fa-phone-alt"></i>
+							(+84) 988 992 088
+						</a></li>
+						<li ><a class='footer__contact-link' href="mailto:Lamhvdesigner@gmail.com">
+							<i class="far fa-envelope"></i>
+							Lamhvdesigner@gmail.com
+						</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3 class="submenu-title">Links</h3>
+					<nav class="footer__links">
+						<ul>
+							<li><a href="#" class="footer__link">Contact Us</a></li>
+							<li><a href="#" class="footer__link">Return policy</a></li>
+							<li><a href="#" class="footer__link">Delivery</a></li>
+							<li><a href="#" class="footer__link">Theme features</a></li>
+							<li><a href="#" class="footer__link">FAQS</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col">
+					<h3 class="submenu-title">Twitter</h3>
+					<p class="text">
+						<a class='twitter-link' href="#">&#64;Pixel-Creative</a> 
+						Lorem ipsum dolor sit amet consectetur adipisicing. 
+					</p>	
+					<p class="text text--margin">
+					Temporibus doloribus molestias suscipit.</p>
+					<div class="twitter-link-box">
+						<p class="text"><a class="twitter-link" href="#">&#64;Pixel-Creative</a> Lorem ipsum dolor sit.</p>
+					</div>	
+				</div>
+				<div class="col-12 col-lg-3">
+					<h3 class="submenu-title">Instagram</h3>
+					<div class="footer__instargram">
+						<div class="footer__instargram-img">
+							<a href="#"><img src="img/insta/Шар 1.png" alt="#"></a>
+						</div>
+						<div class="footer__instargram-img">
+							<a href="#"><img src="img/insta/Шар 2.png" alt="#"></a>
+						</div>
+						<div class="footer__instargram-img">
+							<a href="#"><img src="img/insta/Шар 3.png" alt="#"></a>
+						</div>
+						<div class="footer__instargram-img">
+							<a href="#"><img src="img/insta/Шар 4.png" alt="#"></a>
+						</div>
+						<div class="footer__instargram-img">
+							<a href="#"><img src="img/insta/Шар 5.png" alt="#"></a>
+						</div>
+						<div class="footer__instargram-img">
+							<a href="#"><img src="img/insta/Шар 2.png" alt="#"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom">
+		<div class="footer__sub">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-3">
+					<p class='upper-title'>Sign Up for Our</p>
+					<h2 class="title footer__bottom-title">News letter</h2>
+				</div>
+				<div class="col-12 col-sm-5">
+					<form class='subscribe' action="#">
+						<input type="mail" class="subscribe__mail" placeholder='Enter your mail...'>
+						<button class="subscribe__submit" type="submit">
+							<i class="fas fa-arrow-right"></i>
+							subscribe
+						</button>
+					</form>
+				</div>
+				<div class="col-12 col-sm-4">
+					<div class="footer__socials">
+						<a href="#" class="footer__socials-link"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="footer__socials-link"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="footer__socials-link"><i class="fab fa-github"></i></a>
+						<a href="#" class="footer__socials-link"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="footer__socials-link"><i class="fab fa-youtube"></i></a>
+						<a href="#" class="footer__socials-link"><i class="fab fa-vine"></i></a>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container footer__copyright">
+			<div class="row">
+				<div class="col">Copyright © 2016 by Pixel-Creative. All rights reserved</div>
+				<div class="col footer__payments">
+						<a href="#" class="footer__payments-link">
+							<img src="img/payment/discover.png" alt="">
+						</a>
+						<a href="#" class="footer__payments-link">
+							<img src="img/payment/maestro.png" alt="">
+						</a>
+						<a href="#" class="footer__payments-link">
+							<img src="img/payment/paypal.png" alt="">
+						</a>
+						<a href="#" class="footer__payments-link">
+							<img src="img/payment/visa.png" alt="">
+						</a>
+				</div>
+			</div>
+		</div>
+		</div>	
+	</footer>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
